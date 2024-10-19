@@ -1,4 +1,4 @@
-# IBMZ-TROGAN HEX
+# IBMZ-TROJAN HEX
 
 ## Abstract :
 The problem we are attempting to solve is unexpected machine failures in industrial settings, which lead to costly downtime, expensive repairs, and decreased productivity. In many industries, machines are critical to continuous production, and unplanned failures can halt operations, causing significant financial losses. Traditional maintenance strategies, such as scheduled or reactive maintenance, are inefficient—either leading to over-maintenance or delayed repairs.
