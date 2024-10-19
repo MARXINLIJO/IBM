@@ -1,41 +1,69 @@
-IBMZ- TROGAN HEX
-Abstract :
+# IBMZ-TROGAN HEX
+
+## Abstract :
 The problem we are attempting to solve is unexpected machine failures in industrial settings, which lead to costly downtime, expensive repairs, and decreased productivity. In many industries, machines are critical to continuous production, and unplanned failures can halt operations, causing significant financial losses. Traditional maintenance strategies, such as scheduled or reactive maintenance, are inefficient—either leading to over-maintenance or delayed repairs.
 
-Algorithm :
-Step 1:
+## Algorithm :
+
+### Step 1:
+``` Import Matplotlib
 Import the matplotlib.pyplot module using the alias plt.
-Step 2:
+```
+### Step 2:
+```
 Define a Function to Get Marks Define a Python function get_marks(domain) that takes the name of a domain as an argument.
 Inside the function, prompt the user to enter marks for the specified domain.
 Convert the user input to an integer using int().
 Return the entered marks.
-Step 3:
+```
+### Step 3:
+```
 Define a List of Domains Create a list called domains to store the names of the domains for which you want to collect marks (e.g., "Computer Science," "ECE," "Graphic Design," and "Aerospace").
-Step 4:
+```
+### Step 4: 
+```
 Initialize a Dictionary for Marks Initialize an empty dictionary called marks_dict. This dictionary will be used to store domain names as keys and the corresponding marks as values.
-Step 5:
+``` 
+
+### Step 5:
+```
 Get Marks for Each Domain Use a for loop to iterate through each domain in the domains list.
 Inside the loop, call the get_marks function for each domain to collect the user's input for marks.
 Store the entered marks in the marks_dict dictionary with the domain name as the key.
-Step 6:
+```
+### Step 6: 
+```
 Calculate Total Marks and Percentages Calculate the total marks by summing all the marks in the marks_dict.
 Initialize an empty dictionary called percentage_dict to store domain names as keys and their respective percentages as values. Use a loop to calculate the percentage of marks for each domain:
 For each domain, divide the marks in that domain by the total marks.Multiply the result by 100 to get the percentage. Store the domain name and its percentage in the percentage_dict dictionary.
-Step 7:
+```
+### Step 7: 
+```
 Plot the Results
 Use the matplotlib library to create a bar graph to display the results.
 Set the figure size for the graph.
 Create a bar graph with domain names on the x-axis and corresponding percentages on the y-axis.
 Add labels for the x-axis, y-axis, and a title to the graph.Set the y-axis limits to ensure that the percentages are displayed in the range of 0 to 100.
-Step 8:
+```
+### Step 8: 
+```
 Display the Graph Call plt.show() to display the graph with the entered marks and their percentages in each domain.
 The user will see a bar graph showing the results based on the percentages of marks in different domains
-Import Package :
+```
+
+#
+
+### Import Package :
+
+```
 pip install matplotlib
+```
 Matplotlib is a widely used Python library for creating static, animated, and interactive visualizations in a variety of formats, including line charts, bar charts, scatter plots, and more. It provides a flexible and user-friendly way to generate high-quality plots and graphs for data visualization and scientific illustration. With its rich set of features and customization options, Matplotlib is a powerful tool for researchers, data scientists, and engineers to convey data insights and present results in a clear and visually appealing manner. You can easily install Matplotlib using pip install matplotlib to get started with creating informative and aesthetically pleasing plots in your Python projects.
 
-Program:
+#
+
+### Program:
+```
 # Import necessary libraries
 import pandas as pd
 import numpy as np
@@ -129,8 +157,13 @@ new_sensor_data_df = pd.DataFrame(new_sensor_data, columns=X.columns) # Use all 
 # Now use the data for prediction
 prediction = model.predict(new_sensor_data_df)  
 print("Predicted Failure Status (1 = Fail, 0 = No Fail):", prediction)
-Sample Result 1 :
-Screenshot 2024-10-20 001716
+```
 
-Sample Result 2 :
-Screenshot 2024-10-20 001758
+### Sample Result 1 :
+![Screenshot 2024-10-20 001716](https://github.com/user-attachments/assets/f8760ee6-3a77-45ea-b3dc-7278b0fb0fe1)
+
+### Sample Result 2 :
+![Screenshot 2024-10-20 001758](https://github.com/user-attachments/assets/ee3536de-80f2-4132-b786-44610ddda79c)
+
+
+
